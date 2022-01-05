@@ -1,8 +1,5 @@
 def is_valid(s):
 
-    if len(s) % 2 != 0:
-        return False
-
     dt = {
         '{' : '}',
         '[' : ']',
